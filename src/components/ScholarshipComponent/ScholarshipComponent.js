@@ -52,7 +52,7 @@ export default function ScholarshipComponent() {
                 href="https://www.womentechmakers.com/scholars"
                 target="_blank"
               >
-                <h4>Women Techmaker Scholar Program</h4>
+                <h4>Generation Google Scholarship</h4>
               </a>
               <p>
                 Through the Women Techmakers Scholars Program - formerly the
@@ -61,47 +61,6 @@ export default function ScholarshipComponent() {
                 in the tech industry by encouraging women to excel as active
                 participants and leaders in the field.
               </p>
-            </div>
-          </div>
-          <div className="row content-box">
-            <div className="col-md-8">
-              <a
-                href="https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/"
-                target="_blank"
-              >
-                <h4>Venkat Panchapakesan Memorial Scholarship</h4>
-              </a>
-              <p>
-                This is a scholarship that will support university students in
-                making the world a more sustainable place using technology and
-                are passionate about the field of computer science and
-                engineering. Students who are already using computer science to
-                develop solutions for some of the challenges, or opportunities,
-                that they see around them are invited to apply for the Venkat
-                Panchapakesan Memorial Scholarship. exclusive to India
-              </p>
-            </div>
-            <div className="col-md-4 order-first order-md-last">
-              <div className="card">
-                <img
-                  className="card-img-top w-100"
-                  src={image1}
-                  alt="card"
-                  style={{ width: '350px', height: '200px' }}
-                />
-                <div className="card-body ">
-                  <h6 className="card-title ">
-                    Venkat Panchapakesan Memorial Scholarship
-                  </h6>
-
-                  <a
-                    href="https://buildyourfuture.withgoogle.com/scholarships/venkat-panchapakesan-memorial-scholarship/"
-                    target="_blank"
-                  >
-                    See More {'>'}
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
           <div className="row content-box">
