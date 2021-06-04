@@ -25,7 +25,7 @@ export default function Card({
             </a>
             <div className='card-block__body'>
                 <div>
-                    <a href={link}>
+                    <a href={link} target="_blank">
                     <h6 className='card-block__title' >{`${title}`}</h6>
                     </a>
                     {/* <p className="card-block__desc">{title}</p> */}

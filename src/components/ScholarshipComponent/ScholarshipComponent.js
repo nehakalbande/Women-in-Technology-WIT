@@ -4,7 +4,7 @@ import './ScholarshipComponent.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // image
-import image from '../../images/scholarship/women-tech.png';
+import image from '../../images/scholarship/ggs.jpg';
 import image1 from '../../images/scholarship/venkat.png';
 import image2 from '../../images/scholarship/gcs.png';
 import image3 from '../../images/scholarship/adobe.png';
@@ -27,29 +27,9 @@ export default function ScholarshipComponent() {
             </div>
           </div>
           <div className="row content-box">
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  className="card-img-top w-100"
-                  src={image}
-                  alt="card"
-                  style={{ width: '350px', height: '200px' }}
-                />
-                <div className="card-body ">
-                  <h6 className="card-title ">Scholarship for Women in Tech</h6>
-                  <a
-                    href="https://www.womentechmakers.com/scholars"
-                    // eslint-disable-next-line react/jsx-no-target-blank
-                    target="_blank"
-                  >
-                    See More {'>'}
-                  </a>
-                </div>
-              </div>
-            </div>
             <div className="col-md-8">
               <a
-                href="https://www.womentechmakers.com/scholars"
+                href="https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac/"
                 target="_blank"
               >
                 <h4>Generation Google Scholarship</h4>
@@ -61,6 +41,26 @@ export default function ScholarshipComponent() {
                 in the tech industry by encouraging women to excel as active
                 participants and leaders in the field.
               </p>
+            </div>
+            <div className="col-md-4">
+              <div className="card">
+                <img
+                  className="card-img-top w-100"
+                  src={image}
+                  alt="card"
+                  style={{ width: '350px', height: '200px' }}
+                />
+                <div className="card-body ">
+                  <h6 className="card-title ">Generation Google Scholarship</h6>
+                  <a
+                    href="https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac/"
+                    // eslint-disable-next-line react/jsx-no-target-blank
+                    target="_blank"
+                  >
+                    See More {'>'}
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="row content-box">

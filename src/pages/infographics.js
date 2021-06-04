@@ -68,7 +68,7 @@ export default function infographics() {
                 <h4 className="has">{a.desc}</h4>
                 <a href={a.linkk} style={{ color: 'blue' }} target="_blank" download>
                   {' '}
-                  Read More
+                  Download Pdf
                 </a>
               </div>
             </div>
