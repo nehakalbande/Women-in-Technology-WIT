@@ -1,11 +1,13 @@
 import React from 'react';
 // change the carousel image here //
 import { Carousel } from "react-responsive-carousel";
-
+import "./carousel.css";
 
 import slide1 from '../../images/carousel/carousel1.png';
-import slide2 from '../../images/carousel/carousel2.png';
-import slide3 from '../../images/carousel/carousel3.png';
+import slide2 from '../../images/carousel/carousel2_2.png';
+import slide3 from '../../images/carousel/carousel3_2.png';
+import slide4 from '../../images/carousel/carousel4_2.png';
+
 
 export default function ControlledCarousel() {
   return (
@@ -18,7 +20,12 @@ export default function ControlledCarousel() {
       <img src={slide2} class="d-block w-100" alt="..." />
     </div>
     <div class="carousel-item">
+    <a href="https://github.com/ossu/computer-science">
       <img src={slide3} class="d-block w-100" alt="..." />
+      </a>
+    </div>
+    <div class="carousel-item">
+      <img src={slide4} class="d-block w-100" alt="..." className="logss" />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
