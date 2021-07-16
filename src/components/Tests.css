@@ -73,7 +73,7 @@
   
   .myCarousel p {
     font-weight: 100 !important;
-    line-height: 29px !important;
+    line-height: 27px;
     color: #222;
     font-size: 15px;
     font-family: sans-serif;
@@ -139,7 +139,7 @@
       padding-left: 5%;
       padding-right: 5%;
       border: 1px solid #ddd;
-      height: 269px;
+      height: 300px;
     }
   
     .myCarousel1 {
@@ -176,3 +176,17 @@
   .carousel-item{
     margin-top: 35px;
   }
+
+  @media only screen and (max-width: 540px) {
+      .myCarousel{
+        margin-bottom: 10%;
+      }
+      .myCarousel p{
+        font-size: 13px;
+        line-height: 16px;
+        font-family: sans-serif;
+      }
+      .myCarousel h3{
+        margin-top: 2%;
+      }
+    }
