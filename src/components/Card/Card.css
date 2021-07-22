@@ -1,8 +1,8 @@
 .card-block {
-    width: 280px;
-    height: 300px;
+    width: 200px;
+    height: 270px;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto; margin: 0 auto;
 }
 
 .card-block--big {
@@ -29,20 +29,21 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 2px 27px;
-    background-color: rgba(240, 222, 241, 0.82);
-    border: 1px solid #000000;
+    padding: 0 2px;
+    background-color: #ffcc66;
+    border-radius: 15px;
     box-sizing: border-box;
-    
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
 }
+
+.card-block__body:hover {
+    background-color: grey;
+  }
 
 @media (max-width: 576px) {
     .card-block {
@@ -62,9 +63,12 @@
 }
 
 .card-block__title {
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
+    font-size: 1rem;
+}
+
+
+.card-block__title:hover {
+    color: white;
 }
 
 .card-block__desc {

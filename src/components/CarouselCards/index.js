@@ -1,9 +1,9 @@
-import React, { useMemo, useRef, useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import control from '../../images/control.png';
-import './CarouselCards.css';
-import Card from '../Card/index';
+import React, { useMemo, useRef, useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import control from "../../images/control.png";
+import "./CarouselCards.css";
+import Card from "../Card/index";
 
 export default function CarouselCards({ cards, name }) {
   const containerRef = useRef(null);
@@ -24,8 +24,8 @@ export default function CarouselCards({ cards, name }) {
       handleResize();
     }
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const cardsOnSlide =
