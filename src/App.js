@@ -14,6 +14,8 @@ import CommunityPage from "./pages/community";
 import ContributingPage from "./pages/contributing";
 import GithubPage from "./pages/github";
 import BeginnersPage from "./pages/beginners";
+import EventsPage from "./pages/events";
+
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
         <Route path="/contributing" exact component={ContributingPage} />
         <Route path="/github" exact component={GithubPage} />
         <Route path="/beginners" exact component={BeginnersPage} />
+        <Route path="/events" exact component={EventsPage} />
         </Switch>
       <Footer />
       </Router>
